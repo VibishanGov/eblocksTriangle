@@ -3,6 +3,9 @@
 import triangle
 import randomOddNums
 
+x = randomOddNums.generateNumber()
 
+triangle.trianglePrint(x)
+print("length = " + str(x))
 
-triangle.trianglePrint(randomOddNums.generateNumber())
+# x > 63 seems to be the limit based on terminal dimensions otherwise triangle comes out weird
